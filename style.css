@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2? family= Open+Sans:wght@400;700 & display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #de3c31 32.45%, #9e0d03 67.55%);
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  background: #d6c9c9;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 140px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 18px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.proj {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-itens: center;
+  background: linear-gradient(236.85deg, #fc4254 32.45%, #e03142 67.55%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.Instagram {
+  list-style: none;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.Instagram a {
+  color: #62258f;
+  text-decoration: none;
+}
+
+.Letra-projetos {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.Letra-projetos a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.projeto-size {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0e1d2f;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #540500 32.45%, #330906 67.55%);
+}
+
+.dark .container {
+  background: #1f1d1d;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #f6f6f6;
+  border: 2px solid #f7f7f7;
+}
+
+.dark .Instagram a {
+  color: #bfa7d1;
+  text-decoration: none;
+}
+
+.conquistas {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 8px 32px;
+}
+.conquistas ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+.conquistas li {
+  list-style-type: none;
+}
+
+.conquistas img {
+  max-height: 100px;
+}
